@@ -1,0 +1,36 @@
+.profiles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(247, 247, 247);
+  padding: 30px;
+}
+
+.profiles h1{
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.div-content-profiles{
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.div-profiles{
+  width: 200px;
+  height: 180px;
+  padding: 1px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(242, 108, 6, 0.432);
+  background-color: rgb(255, 252, 252);
+}
+
+.div-profiles img{
+  width: 200px;
+  height: 180px;
+  border-radius: 20px;
+}
